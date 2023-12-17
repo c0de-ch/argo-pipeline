@@ -18,5 +18,5 @@ spec:
            name: argo-workflows-server
            port:
              number: 2746
-    host: argo-workflows.c0de.ch
+    host: argo-workflows.k8s02.c0de.ch
 
