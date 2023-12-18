@@ -19,4 +19,4 @@ spec:
                 name: argocd-server
                 port:
                   name: https
-      host: argocd.k8s02.c0de.ch
+      host: argocd-k8s02.c0de.ch

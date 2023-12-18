@@ -17,7 +17,7 @@ spec:
         endpoint: /argo-combined-app
         port: "12000"
         method: POST
-        url: http://webhook-argo.k8s02.c0de.ch
+        url: http://webhookargo-k8s02.c0de.ch
       events:
         - "*"
       apiToken:
@@ -48,4 +48,4 @@ spec:
            name: github-eventsource-svc
            port:
              number: 12000
-    host: webhook-argo.k8s02.c0de.ch
+    host: webhookargo-k8s02.c0de.ch
