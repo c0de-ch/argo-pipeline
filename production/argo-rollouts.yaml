@@ -9,7 +9,7 @@ spec:
   project: production
   source:
     path: argo-rollouts/base
-    repoURL: https://github.com/c0de-ch/argo-combined-demo
+    repoURL: https://github.com/c0de-ch/argo-pipeline
     targetRevision: HEAD
   destination:
     server: https://kubernetes.default.svc
