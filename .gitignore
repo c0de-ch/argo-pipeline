@@ -5,3 +5,4 @@
 /.idea/vcs.xml
 /.idea/modules.xml
 /.idea/checkstyle-idea.xml
+/k8s-etc/github-c0de-argo-pipeline-secret.yaml
