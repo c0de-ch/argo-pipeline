@@ -77,9 +77,9 @@ spec:
                       - name: environment
                         value: staging
                       - name: repo_owner
-                        value: vfarcic
+                        value: c0de-ch
                       - name: repo_name
-                        value: argo-combined-demo
+                        value: argo-pipeline
                       - name: image_owner
                         value: CHANGE_ME_IMAGE_OWNER
                       - name: image_name
@@ -98,9 +98,9 @@ spec:
                       - name: environment
                         value: production
                       - name: repo_owner
-                        value: vfarcic
+                        value: c0de-ch
                       - name: repo_name
-                        value: argo-combined-demo
+                        value: argo-pipeline
                       - name: image_owner
                         value: CHANGE_ME_IMAGE_OWNER
                       - name: image_name
