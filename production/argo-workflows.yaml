@@ -21,9 +21,9 @@ spec:
             ingressClassName: nginx
         controller:
           containerRuntimeExecutor: emissary
-        authModes: ["server"]
-        authMode: "server"
-        server.authModes: ["server"]
+        authModes: ["server","client", "sso"]
+        authMode: "server, client, sso"
+        server.authModes: ["server","client", "sso"]
   destination:
     namespace: argo
     server: https://kubernetes.default.svc

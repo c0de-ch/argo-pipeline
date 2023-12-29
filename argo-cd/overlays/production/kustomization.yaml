@@ -13,6 +13,7 @@ patches:
 patchesStrategicMerge:
 - repo-server.yaml
 - ingress.yaml
+- argo-workflows-sso.yaml
 namespace: argocd
 
 images:
