@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: c0de-ch-admin.service-account-token
+  namespace: argo
+  annotations:
+    kubernetes.io/service-account.name: c0de-ch-admin
+type: kubernetes.io/service-account-token
