@@ -17,7 +17,7 @@ spec:
         endpoint: /argo-combined-app
         port: "12000"
         method: POST
-        url: http://webhookargo-k8s02.c0de.ch
+        url: https://webhookargo-k8s02.c0de.ch
       events:
         - "*"
       apiToken:
