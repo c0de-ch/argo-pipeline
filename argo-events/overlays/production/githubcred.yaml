@@ -1,21 +1,15 @@
-{
-  "kind": "SealedSecret",
-  "apiVersion": "bitnami.com/v1alpha1",
-  "metadata": {
-    "name": "github-access",
-    "namespace": "argo-events",
-    "creationTimestamp": null
-  },
-  "spec": {
-    "template": {
-      "metadata": {
-        "name": "github-access",
-        "namespace": "argo-events",
-        "creationTimestamp": null
-      }
-    },
-    "encryptedData": {
-      "token": "AgAnrFKXv2RHaQmMFHlWj2j3Ecx/NKHCfymxGzCP8idWZjGLvdHadAVKKmpr95aYpmm0mSSuPXMnV1h7tWC78lcH8T3Fefj5ZkNUI90vsCbCYeE7l8llRdrlLGjgDpAqfoW2CDhLnQBmksypHh4nbkTUwgDbL/VgVtdYZhKa/Y/vQqq1Vf+bkRWEWUnvYLV3id8lu6m1jLCQDKqReXvMNw6dX+ke8lL72a3EN26ist43bL8E2pDBhxFvZ68xU1fNnAy25BfnXeCpuJa4RbIIuIuyRgbV15+DSnFvLBTakpaMhF3nvXBhPjQ5NP0HSjUlg5qbxFoF4slA5PfB2Hhjarts+ntJNLH5j0oYVCwLnxoJzFHcuANd0AxCg/xfgMRUqeJmifgg4zDrn546RcvKZwolfuukvYpExIx7GfmVKLdizzLyjBKBFFjsn8pRTc7wq+7HHBmKB7xlitD/DqDC+hxEa95ZUDJV5R2GyzWsvVbQ1koAkHO77PQryLwX63q0ewzNMoxfGM0I3VtqzNHa0zuYWm83fufogjB1lhLpZQPeEIOLbOieFOYMU5RAZv7DY0VpTNQBQFb7jwtyRC75KoyvsZxUt3QjHHsPdYPMKEEIcxQebCGP+V98J1iaaA/Ro099Zk+5te7tTbPu2FK9sg8PySGwwhnxDBE3SfTH665uOfa5IpXs9Y0eAuuDjRsRv8IDapTBooErBQRlliZZshQTjOHXMdBUt8wXmlH3VpMCYQk7TTc58WZN"
-    }
-  }
-}
+---
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  creationTimestamp: null
+  name: github-access
+  namespace: argo-events
+spec:
+  encryptedData:
+    token: AgBVDOBOQf9WiTcHRCowNppzehMykmN4i0rPUq23PEeR7x3RD78tfhhQ9v2juXguKg05dOkCQNDdAtyYn13eooaLuPdtdQuRE8p+DCeXa/cNB5ZToWEHYDc+w6uSK09DXqVlGA2RmHxOWnP90WShBZxG9N8iNj8SBzFHe6jlRkKu/DTx0qeHLcA7TLmmNKahI0Tzg2P9d0i0jwg9gAR3fmosCuZ0XpA8qziEkRxJuyKWyXcQe5aEzjXR+zPDY1yVZbgqRMX6gl+3jZiwNqHPiJGwSH7kjV1rpjUjpooVzsLHuH86ipePhjTtBQ+/bRS06KmZci/+EwRmHRWGCrUDMnafqWl3/EnXp1f8PXLxE5AdvEqtodHUJ9RCIYNkGmno180RKJgw7iQqWj6GWgKVCAynW8MBJh+dVQy0caSq09pDvVf1d9CATv4m0AHVCEryQwcagW9lodC1KFvzLaTCIXkWnROLc5+EvjVJGK2F8p3Op5f+eojfJhwkdtIKlPERF/A0EycGIjZQuKA/lZduNFDfl7TcpR4nkc5eE5CoN8VD9vPI/0fTQfOg1RLxSjCUJX9lDBbM19N2afFiam9GqVNIunhQOXyeN0Tmj13DFs5EwCS0OdBbTvQaZndasOSs84H4QV0QZklextIxh0Nt79wcdqEs8PJNBs+mjS+oanLX9l/lKlPKa2Cw/ieP5wLD1PRczh47I22cCuJg3VlxkRkTEIlMQZHG/vSQqnmFDR5vQXZNLxP8QUyW
+  template:
+    metadata:
+      creationTimestamp: null
+      name: github-access
+      namespace: argo-events
