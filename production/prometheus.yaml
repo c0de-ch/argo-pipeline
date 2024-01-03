@@ -15,7 +15,7 @@ spec:
       values: |
         server:
           persistentVolume:
-            storageClass: nfs
+            storageClass: nfs-client
   destination:
     namespace: monitoring
     server: https://kubernetes.default.svc
