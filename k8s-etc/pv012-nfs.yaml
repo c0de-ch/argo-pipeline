@@ -4,10 +4,10 @@ metadata:
   name: pv012
 spec:
   capacity:
-    storage: 500Mi
+    storage: 10Gi
   accessModes:
     - ReadWriteMany
-  storageClassName: nfs-client
+  storageClassName: nfs
   nfs:
     server: 192.168.78.97
     path: "/mnt/pool001/k8s-pv012"

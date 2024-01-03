@@ -5,8 +5,9 @@ metadata:
   namespace: monitoring
 spec:
   accessModes:
-    - ReadWriteMany
-  storageClassName: nfs
+    - ReadWriteOnce
   resources:
     requests:
-      storage: 100Mi
+      storage: 8Gi
+  storageClassName: nfs
+  volumeMode: Filesystem

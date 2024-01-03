@@ -4,7 +4,7 @@ metadata:
   name: pv010
 spec:
   capacity:
-    storage: 500Mi
+    storage: 8Gi
   accessModes:
     - ReadWriteMany
   storageClassName: nfs
