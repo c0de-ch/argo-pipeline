@@ -22,7 +22,7 @@ spec:
             apiVersion: argoproj.io/v1alpha1
             kind: Workflow
             metadata:
-              generateName: argo-combined-kim-app-
+              generateName: argo-combined-app-
               namespace: workflows
             spec:
               entrypoint: check-branch
@@ -44,9 +44,6 @@ spec:
                       path: user
                     - key: email
                       path: email
-              - name: slack-access
-                secret:
-                  secretName: slack-access
               templates:
               - name: build
                 dag:
