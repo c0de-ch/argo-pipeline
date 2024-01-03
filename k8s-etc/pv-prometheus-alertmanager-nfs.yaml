@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: pv-prometheus-alertmanager
+spec:
+  capacity:
+    storage: 3Gi
+  accessModes:
+    - ReadWriteOnce
+  nfs:
+    server: 192.168.78.97
+    path: "/mnt/pool001/k8s-pv-prometheus-alertmanager"
