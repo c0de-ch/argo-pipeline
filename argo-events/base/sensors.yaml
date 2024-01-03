@@ -64,7 +64,7 @@ spec:
                       - name: repo_commit_id
                         value: ""
                       - name: container_image
-                        value: CHANGE_ME_IMAGE_OWNER/
+                        value: c0dech/
                       - name: container_tag
                         value: ""
                   - name: promote-staging
@@ -81,7 +81,7 @@ spec:
                       - name: repo_name
                         value: argo-pipeline
                       - name: image_owner
-                        value: CHANGE_ME_IMAGE_OWNER
+                        value: c0dech
                       - name: image_name
                         value: ""
                       - name: tag
@@ -102,7 +102,7 @@ spec:
                       - name: repo_name
                         value: argo-pipeline
                       - name: image_owner
-                        value: CHANGE_ME_IMAGE_OWNER
+                        value: c0dech
                       - name: image_name
                         value: ""
                       - name: tag
