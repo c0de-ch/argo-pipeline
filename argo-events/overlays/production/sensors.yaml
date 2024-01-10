@@ -162,7 +162,7 @@ spec:
                 - - name: step-build-dag-if-true
                     template: build
                     when: "{{steps.step-py-check-condition.outputs.result}}"
-              - name: py-check-condition
+              - name: py-check-condition-kim-prod
                 inputs:
                   parameters:
                   - name: ref
